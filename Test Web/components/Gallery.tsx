@@ -1,0 +1,1 @@
+export default function Gallery(){const items=[1,2,3,4,5,6];return <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:20}}>{items.map(i=><div key={i}><img src={`https://picsum.photos/600/400?${i}`} /><h3>Project {i}</h3></div>)}</div>}

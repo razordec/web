@@ -1,0 +1,1 @@
+import Gallery from "../components/Gallery"; export default function Home(){return <main><h1>Design Awards Platform</h1><Gallery/></main>}
